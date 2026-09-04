@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Heavy Equipment — Sparepart & Rental</title>
+  <meta name="description" content="Sparepart alat berat dan rental unit untuk kebutuhan proyek konstruksi, mining, plantation, dan infrastructure." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <a class="brand" href="#home">
+      <span class="brand-mark">H</span>
+      <span>HEAVY<span>EQUIP</span></span>
+    </a>
+    <button class="menu-toggle" aria-label="Buka menu">☰</button>
+    <nav>
+      <a href="#home">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#unit">UNIT</a>
+      <a href="#sparepart">SPAREPART</a>
+      <a href="#contact">CONTACT</a>
+      <a class="nav-cta" href="#" data-wa="Halo, saya ingin berkonsultasi mengenai kebutuhan alat berat.">HUBUNGI KAMI</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">HEAVY EQUIPMENT • SPAREPART • RENTAL</p>
+        <h1>POWERING<br><span>YOUR PROJECTS.</span></h1>
+        <p class="hero-copy">Sparepart berkualitas dan unit alat berat siap kerja untuk mendukung kebutuhan proyek Anda.</p>
+        <div class="hero-actions">
+          <a class="btn btn-red" href="#unit">LIHAT UNIT <span>→</span></a>
+          <a class="btn btn-outline" href="#" data-wa="Halo, saya ingin konsultasi mengenai kebutuhan alat berat.">KONSULTASI VIA WHATSAPP</a>
+        </div>
+      </div>
+      <div class="hero-bottom">
+        <div>01 / 04</div>
+        <div class="hero-line"></div>
+        <div>BUILT FOR HEAVY WORK</div>
+      </div>
+    </section>
+
+    <section class="highlights">
+      <div class="container highlight-grid">
+        <article><b>01</b><div><h3>QUALITY PARTS</h3><p>Sparepart pilihan untuk menjaga performa alat tetap optimal.</p></div></article>
+        <article><b>02</b><div><h3>READY UNIT</h3><p>Pilihan unit alat berat untuk berbagai kebutuhan proyek.</p></div></article>
+        <article><b>03</b><div><h3>FAST RESPONSE</h3><p>Respon cepat untuk kebutuhan sparepart maupun rental.</p></div></article>
+        <article><b>04</b><div><h3>PROJECT SUPPORT</h3><p>Siap mendukung kebutuhan alat berat berbagai skala pekerjaan.</p></div></article>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container split">
+        <div class="image-frame about-image">
+          <img src="https://images.unsplash.com/photo-1579202673506-ca3d2a0b7e2b?auto=format&fit=crop&w=1200&q=85" alt="Alat berat di area proyek">
+          <span class="image-tag">HEAVY DUTY</span>
+        </div>
+        <div class="section-copy">
+          <p class="eyebrow red">ABOUT US</p>
+          <h2>BUILT FOR<br><span>HEAVY WORK.</span></h2>
+          <p class="lead">Kami hadir untuk menjadi partner kebutuhan alat berat Anda.</p>
+          <p>Kami menyediakan berbagai kebutuhan sparepart serta unit alat berat untuk mendukung pekerjaan konstruksi, pertambangan, perkebunan, dan berbagai kebutuhan proyek lainnya.</p>
+          <p>Dengan mengutamakan kualitas produk, kondisi unit, serta pelayanan yang responsif, kami membantu memastikan kebutuhan alat berat Anda dapat berjalan lebih efektif.</p>
+          <a class="text-link" href="#contact">KENALI KAMI <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="unit" class="section dark-section">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow yellow">OUR FLEET</p><h2>OUR HEAVY<br><span>EQUIPMENT</span></h2></div>
+          <p>Pilih unit yang sesuai dengan kebutuhan pekerjaan Anda. Hubungi kami untuk cek ketersediaan dan penawaran rental.</p>
+        </div>
+        <div id="unit-grid" class="product-grid"></div>
+      </div>
+    </section>
+
+    <section id="sparepart" class="section sparepart">
+      <div class="container">
+        <div class="section-heading light-heading">
+          <div><p class="eyebrow red">PARTS & COMPONENTS</p><h2>GENUINE &<br><span>QUALITY PARTS</span></h2></div>
+          <p>Temukan kebutuhan sparepart berdasarkan kategori atau cari nama/part number.</p>
+        </div>
+        <div class="catalog-tools">
+          <input id="part-search" type="search" placeholder="Cari sparepart atau part number..." />
+          <select id="part-filter">
+            <option value="all">Semua kategori</option>
+            <option value="Engine Parts">Engine Parts</option>
+            <option value="Hydraulic Parts">Hydraulic Parts</option>
+            <option value="Undercarriage">Undercarriage</option>
+            <option value="Electrical">Electrical</option>
+            <option value="Filter">Filter</option>
+          </select>
+        </div>
+        <div id="parts-grid" class="parts-grid"></div>
+      </div>
+    </section>
+
+    <section class="industries">
+      <div class="container">
+        <p class="eyebrow yellow">PROJECT SUPPORT</p>
+        <h2>READY FOR YOUR<br><span>NEXT PROJECT.</span></h2>
+        <div class="industry-grid">
+          <div>CONSTRUCTION</div><div>MINING</div><div>PLANTATION</div><div>INFRASTRUCTURE</div><div>LAND CLEARING</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section why">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow red">THE DIFFERENCE</p><h2>WHY WORK<br><span>WITH US?</span></h2></div>
+        </div>
+        <div class="why-grid">
+          <article><span>01</span><h3>QUALITY</h3><p>Produk dan unit dipilih dengan standar kualitas yang mendukung pekerjaan berat.</p></article>
+          <article><span>02</span><h3>RELIABLE</h3><p>Partner yang dapat diandalkan untuk kebutuhan proyek dan operasional.</p></article>
+          <article><span>03</span><h3>RESPONSIVE</h3><p>Komunikasi cepat dan mudah melalui WhatsApp.</p></article>
+          <article><span>04</span><h3>PRACTICAL</h3><p>Proses konsultasi dan pemesanan dibuat sederhana.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container contact-inner">
+        <div>
+          <p class="eyebrow yellow">GET IN TOUCH</p>
+          <h2>LET'S TALK ABOUT<br><span>YOUR PROJECT.</span></h2>
+          <p>Butuh unit alat berat atau sparepart? Ceritakan kebutuhan proyek Anda. Kami siap membantu menemukan solusi yang sesuai.</p>
+        </div>
+        <div class="contact-card">
+          <p>READY TO START?</p>
+          <a class="btn btn-red large" href="#" data-wa="Halo, saya ingin konsultasi mengenai kebutuhan alat berat dan sparepart.">CHAT VIA WHATSAPP →</a>
+          <div class="contact-info">
+            <span>WhatsApp<br><b>+62 812-3456-7890</b></span>
+            <span>Email<br><b>info@heavyequip.co.id</b></span>
+            <span>Business Hours<br><b>Senin — Sabtu, 08.00 — 17.00</b></span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <a class="brand" href="#home"><span class="brand-mark">H</span><span>HEAVY<span>EQUIP</span></span></a>
+      <div class="footer-links"><a href="#home">Home</a><a href="#about">About</a><a href="#unit">Unit</a><a href="#sparepart">Sparepart</a><a href="#contact">Contact</a></div>
+      <small>© 2026 HEAVYEQUIP. All Rights Reserved.</small>
+    </div>
+  </footer>
+
+  <a href="#" class="floating-wa" data-wa="Halo, saya ingin konsultasi mengenai kebutuhan alat berat." aria-label="WhatsApp">WA</a>
+  <script src="js/script.js"></script>
+</body>
+</html>
